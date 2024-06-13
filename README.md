@@ -15,6 +15,8 @@ Tecnologias usadas en este proyecto:
 
 Indica la licencia bajo la cual se distribuye el proyecto. Es importante ser claro sobre los términos de uso del código.
 
+https://marelinguzman.github.io/mcdonald-s_pagina/
+
 Agradecimientos a ...
 Prof. Jossue Fuentes
 Javier Mayen

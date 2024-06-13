@@ -1,0 +1,288 @@
+
+.content {
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 90vw;
+    height: auto;
+    position: relative;
+    margin-top: 10rem;
+}
+.section-content{
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+}
+.section-content-flechas {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+}
+.section-content-flechas div {
+    width: 4rem;
+    height: 4rem;
+    background-color: #f9cc46;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-content-flechas div img{
+    width: 80%;
+    height: 80%;
+}
+.section-content-welcome img{
+    width: 100%;
+}
+.section-content-menu{
+    margin-top: 4rem;
+    width: 100%;
+    height: 50rem;
+    background-image: url("https://github.com/marelinguzman/img_mcdonald-s/blob/main/foto.png?raw=true");
+    position: relative;
+
+}
+.section-content-menu div img {
+    position: absolute;
+    top: 40px;
+    left: 28px;
+    /* right: 0px; */
+    /* bottom: 0px; */
+}
+.section-content-menu p {
+    font-size: 7.5rem;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    line-height: 135%;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    /* left: 28px; */
+    /* bottom: 0px; */
+}
+.section-content-menu a {
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 0.7rem 3rem;
+    background-color: white;
+    color: black;
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+}
+.section-content-information {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section-content-information1, .section-content-information2 {
+    width: 49%;
+    height: 75rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f4f6;
+    align-items: center;
+    justify-content: center;
+}
+.section-content-information1_img, .section-content-information2_img {
+    width: 65%;
+    height: 70%;
+    
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section-content-information1_img{
+    background-image: url("https://github.com/marelinguzman/img_mcdonald-s/blob/main/persona1.png?raw=true");
+}
+.section-content-information2_img{
+    background-image: url("https://github.com/marelinguzman/img_mcdonald-s/blob/main/persona2.png?raw=true");
+}
+.section-content-information1_content, .section-content-information2_content {
+    width: 65%;
+    height: 15rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-content-information1 h4, .section-content-information2 h4 {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.section-content-information1_content div, .section-content-information2_content div{
+    font-size: 1.5rem;
+}
+.section-content-information1_content a, .section-content-information2_content a {
+    width: 65%;
+    height: auto;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    background-color: #ffbc0d;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.section-content-happyMeal{
+    margin-top: 3rem;
+    width: 100%;
+    height: 47rem;
+    background-image: url("https://github.com/marelinguzman/img_mcdonald-s/blob/main/menus.png?raw=true");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-content-contact {
+    margin-top: 3rem;
+    width: 100%;
+    height: 30rem;
+    background-color: #dc2626;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-content-contact-information {
+    width: 55%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-left: 5rem;
+}
+.section-content-contact_logo {
+    width: 20%;
+    height: 70%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.section-content-contact_logo img {
+    width: 100%;
+    height: 90%;
+}
+.section-content-contact-information_message{
+    width: 65%;
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+}
+.section-content-contact-information-socialmedia {
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 6rem;
+}
+.section-content-contact-information_socialmedia_phone, .section-content-contact-information_socialmedia_app, 
+.section-content-contact-information_socialmedia_whatsapp, .section-content-contact-information_socialmedia_web {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-content-contact-information_socialmedia_phone img, .section-content-contact-information_socialmedia_app img,
+.section-content-contact-information_socialmedia_whatsapp img, .section-content-contact-information_socialmedia_web img{
+    max-width: 100%;
+    height: auto;
+}
+.section-content-contact-information_socialmedia_phone p, .section-content-contact-information_socialmedia_app p,
+.section-content-contact-information_socialmedia_whatsapp p, .section-content-contact-information_socialmedia_web p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+/* ========================Footer========================================*/
+.footer {
+    margin-top: 3rem;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: 20rem;
+    /* background-color: aqua; */
+}
+.footer-information1 {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-information1-div1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.footer-information1-div1_link a{
+    color: black;
+}
+.footer-information1-div2 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-information1-div2_facebook img, .footer-information1-div2_x img, .footer-information1-div2_instagram img,
+.footer-information1-div2_youtube img, .footer-information1-div2_tiktok img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.footer-information2 {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer-information2-div1 {
+    width: 40%;
+    height: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-information2-div1 div a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.footer-information2-div1_Proveedores a, .footer-information2-div1_Contacto a, .footer-information2-div1_LinkedIn a, .footer-information2-div1_Empleo a {
+    border-right: 2px solid black;
+    padding-right: 1rem;
+}
+.footer-information2-div3 a{
+    text-decoration: none;
+    color: black;
+
+}
+
+@media ( width >= 1900px )  {
+    .content {
+        width: 62vw;
+    }
+    .section-content-happyMeal {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
